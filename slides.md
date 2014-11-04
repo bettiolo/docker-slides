@@ -28,6 +28,10 @@ We need a standard way to pack our code and distribute it to all the environment
 
 
 
+
+
+
+
 ## What is Docker?
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.
@@ -89,9 +93,15 @@ From inside it looks like a vm, from outside it looks like a process.
 
 
 
+
+
+
 Like a virtual machine, containers do process segregation and virtual networking minus the overhead of an hypervisor and an emulated hardware, bios and operating system. 
 
 You don't have to worry about disk, ram and hardware allocation as the apps will run on the same disk, memory and network. They will share the resources so the overhead is very little and the boot time is very fast.
+
+
+
 
 
 
@@ -127,6 +137,9 @@ You don't have to worry about disk, ram and hardware allocation as the apps will
 
 
 
+
+
+
     App A     | App B
     Bins/Libs | Bins/Libs    App A     | App B
     Guest OS  | Guest OS     Bins/Libs | Bins/Libs
@@ -134,6 +147,8 @@ You don't have to worry about disk, ram and hardware allocation as the apps will
           Hypervisor             Docker engine
            Host OS                  Host OS
            server                   Server
+
+
 
 
 
@@ -210,6 +225,10 @@ Starts a process with its own file system, its own networking, and its own isola
 
 
 
+
+
+
+
  
 ## Dockerfile
 
@@ -229,6 +248,11 @@ docker rm node-simple-1
 docker rmi node-simple
 ```
  
+
+
+
+
+
 
 
 
@@ -305,17 +329,9 @@ _demo_
 
 
 
+
+
 ## Questions ?
-
-
-
-
-
-
-
-
-
-
 
 
 
