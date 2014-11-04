@@ -1,1 +1,1 @@
-docker logs -t node-simple-1
+docker logs node-simple-1
