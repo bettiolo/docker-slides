@@ -93,6 +93,15 @@ docker rmi
 It will only execute steps that have changed compared to the previous build.
 
 _Demo_
+ 
+## Fig
+
+> Fast, isolated development environments using Docker (fig.sh)
+
+Allows you to automagically spin up a set of dependent docker containers.
+
+`fig.yml`: Definition of your app's dependencies
+`fig up`: Build, (re)create, start and attach to containers for a service.
 
 ## Networking
  
@@ -107,7 +116,5 @@ _Demo_
                          
                          container5:noNetwork 
                          		--net=none
- 
-## Fig
-
-Allows you to spin up a set of dependent docker containers
+                         		
+## Thank you :)

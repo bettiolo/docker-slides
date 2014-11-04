@@ -1,14 +1,16 @@
 {
-  "name": "node-simple",
+  "name": "node-redis-fig",
   "version": "0.0.1",
-  "description": "Super quick example of expressjs",
+  "description": "Super quick example of NodeJS + Redis managed by Fig",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marco Bettiolo",
+  "license": "",
   "dependencies": {
-    "express": "^4.10.1"
+    "express": "^4.10.1",
+    "redis": "^0.12.1"
   }
 }
