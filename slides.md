@@ -1,6 +1,8 @@
+//I've made a few edits to the spelling etc, hope you don't mind.  Adam.
+
 ## Pet vs Cattle
 
-In the old times, we would created servers with names like Paperino, SuperMario or Marley. Each server was configured by hand and all were different, each one was an unique snowflake. 
+In the old days, we created servers with names like Paperino, SuperMario or Marley. Each server was configured by hand and all were different, each one was an unique snowflake. 
 
 When a server suddenly falls ill, we do everything we can to bring it back to health. We treat it like our own cute pet.
 
@@ -17,7 +19,7 @@ When a server suddenly falls ill, we do everything we can to bring it back to he
 
 
 
-Instead of threating machines like pets, you should threat them like cattle. When they get sick, you shoot 'em in the head and replace 'em with a new one.
+Instead of treating machines like pets, you should treat them like cattle. When they get sick, you shoot 'em in the head and replace 'em with a new one.
 
 Shipping code is hard, but it shouldn't be. Today the software stack is complex and diverse. We have loosely coupled components running on distributed (micro)services. The software is built with different language, frameworks and dependencies. It must run on various kind of hardware: your laptop as well as colleagues, tester's machines, build agents, your test cluster, your public cloud cluster.
 
@@ -36,7 +38,7 @@ We need a standard way to pack our code and distribute it to all the environment
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.
 >
-> With Docker, developers can build any app in any language using any toolchain. “Dockerized” apps are completely portable and can run anywhere - colleagues’ OS X and Windows laptops, QA servers running in the cloud, and production data center VMs. (docker.com)
+> With Docker, developers can build any app in any language using any toolchain. “Dockerized” apps are completely portable and can run anywhere - colleagues OS X and Windows laptops, QA servers running in the cloud, and production data center VMs. (docker.com)
 
 
 
@@ -51,7 +53,7 @@ We need a standard way to pack our code and distribute it to all the environment
 
 
 
-On docker, apps run in separate containers, they cannot interfer one with each other. We don't have to worry about installed libraries and conflicting dependencies. If different releases of the application require different versions of a library, the specific version must be installed in the specific container.
+On docker, apps run in separate containers, they cannot interfere one with each other. We don't have to worry about installed libraries and conflicting dependencies. If different releases of the application require different versions of a library, the specific version must be installed in the specific container.
  
 
 
@@ -96,7 +98,7 @@ From inside it looks like a vm, from outside it looks like a process.
 
 
 
-Like a virtual machine, containers do process segregation and virtual networking minus the overhead of an hypervisor and an emulated hardware, bios and operating system. 
+Like a virtual machine, containers carry out segregation and virtual networking minus the overhead of an hypervisor and an emulated hardware, bios and operating system. 
 
 You don't have to worry about disk, ram and hardware allocation as the apps will run on the same disk, memory and network. They will share the resources so the overhead is very little and the boot time is very fast.
 
