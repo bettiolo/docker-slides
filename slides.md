@@ -1,4 +1,3 @@
-//I've made a few edits to the spelling etc, hope you don't mind.  Adam.
 
 ## Pet vs Cattle
 
